@@ -1,6 +1,6 @@
 .m-combobox {
     position: relative;
-    z-index: 100;
+    z-index: 500;
 }
 
 .m-combobox .drop-icon {
