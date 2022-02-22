@@ -1,7 +1,7 @@
 .table-container {
     overflow: auto;
     position: relative;
-    max-width: 85%;
+    max-width: 100%;
 }
 
 .table {

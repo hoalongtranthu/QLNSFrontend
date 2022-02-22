@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <Table ref="tableEmployee" :headers="employeeHeaders" :items="employees" keyName="employeeId" 
-                style="max-height: 510px; max-width: 1280px;" v-model="selectedEmployeeIds" 
+                style="max-height: 510px;" v-model="selectedEmployeeIds" 
                 :showAction="true" @selectedRow="EditEmployee" @updateSelectedIds="setSelectedEmployeeIds">
                     <template #actions="{ item }">
                         <button @click="EditEmployee(item)">Sửa</button>

@@ -1,8 +1,8 @@
 .maincontent {
     width: 100%;
     background-color: #eeeeee;
-    height: calc(100%-48px);
     box-sizing: border-box;
+    max-height: calc(100% - 48px);
 }
 
 .maincontent .content-header {
@@ -24,9 +24,9 @@
 }
 
 .maincontent .content-body {
-    width: 98%;
+    width: 100%;
     background-color: #fff;
-    margin: 0 12px 0 12px;
+    padding: 0 12px 0 12px;
 }
 
 .maincontent .content-body-table {
@@ -39,7 +39,7 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
-    padding: 0 16px;
+    padding-left: 16px;
 }
 
 .content-body .main-tool {

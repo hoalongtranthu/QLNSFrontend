@@ -10,11 +10,11 @@
 @import url('./component/input.css');
 div#app {
     display: flex;
-    position: relative;
+    height: calc(100% - 20px);
 }
 
 .content {
-    width: 100%;
+    width: calc(100% - 200px);
     box-sizing: border-box;
 }
 
