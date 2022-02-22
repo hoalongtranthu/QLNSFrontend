@@ -1,0 +1,93 @@
+.table-container {
+    overflow: auto;
+    position: relative;
+    max-width: 85%;
+}
+
+.table {
+    border-spacing: 0;
+    background-color: #fff;
+}
+
+.table th {
+    text-transform: uppercase;
+    height: 34px;
+    background-color: #eceef1;
+    position: sticky;
+    top: 0;
+    z-index: 101;
+}
+
+.table td {
+    height: 44px;
+    background-color: #fff;
+}
+
+.table td,
+.table th {
+    padding: 0 10px;
+    border-bottom: 1px solid #c7c7c7;
+    text-align: left;
+    min-width: 0;
+}
+
+.table td.text-align-center,
+.table th.text-align-center {
+    text-align: center;
+}
+
+.table td:not(:last-child),
+.table th:not(:last-child) {
+    border-right: 1px dotted #c7c7c7;
+}
+
+.table tbody tr:hover {
+    cursor: pointer;
+}
+
+.table tbody tr:hover td {
+    background-color: #f8f8f8;
+}
+
+.table .th-check-all {
+    width: 24px;
+    z-index: 102;
+    left: 0;
+}
+
+.table .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.table .td-check {
+    position: sticky;
+    min-width: 18px;
+}
+
+.table .td-actions {
+    position: sticky;
+    min-width: 120px;
+    right: -2px;
+    border-left: 1px dotted #c7c7c7;
+}
+
+.table .td-check {
+    left: 0;
+}
+
+.table button {
+    color: rgb(39, 39, 248);
+    font-size: 13px;
+    border: none;
+    background: unset;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.table button:hover {
+    font-weight: 700;
+}

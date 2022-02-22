@@ -1,0 +1,46 @@
+.m-button {
+    border-radius: 4px;
+    min-width: 100px;
+    background-color: #2ca01c;
+    padding: 0 24px;
+    text-align: center;
+    height: 32px;
+    line-height: 24px;
+    color: #ffffff;
+    outline: none;
+    overflow: hidden;
+    border: none;
+}
+
+.m-button:hover {
+    background-color: #35bf22;
+    color: #fff;
+}
+
+.m-button-onlyicon {
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    border: none;
+    opacity: .6;
+    box-sizing: border-box;
+}
+
+.m-button-onlyicon:hover {
+    opacity: 1;
+}
+
+.m-button-primary {
+    height: 32px;
+    padding: 0 16px;
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+    border-radius: 4px;
+    opacity: .7;
+}
+
+.m-button-primary:hover {
+    opacity: 1;
+    background-color: #d2d3d6;
+}

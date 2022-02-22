@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    height: 48px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header .header-menu-icon {
+    background-position: -843px -30px;
+    margin: 0 24px 0 12px;
+}
+
+.header-right {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    right: 24px;
+    top: 12px;
+}
+
+.header .header-bell {
+    background-position: -788px -30px;
+    margin-right: 12px;
+}
+
+.header .header-account {
+    height: 24px;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.header-account-avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid #555555;
+    margin-right: 8px;
+}
+
+.header .header-account-option {
+    background-position: -1070px -28px;
+    height: 24px;
+    width: 24px;
+}
+
+.header-combobox {
+    align-items: center;
+    display: flex;
+}
+
+.header .header-combobox-icon {
+    background-position: -1070px -28px;
+    height: 24px;
+    width: 24px;
+}

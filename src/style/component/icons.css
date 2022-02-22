@@ -1,0 +1,153 @@
+.mi {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat;
+    cursor: pointer;
+}
+
+.mi-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-48 {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.mi-excel {
+    background-position: -704px -200px;
+}
+
+.mi-question {
+    background-position: -826px -456px;
+}
+
+.mi-settings {
+    background-position: -88px -200px;
+}
+
+.mi-warning {
+    background-position: -592px -456px;
+}
+
+.mi-search {
+    background-position: -992px -360px;
+}
+
+.mi-toggle {
+    background-position: -424px -86px;
+}
+
+.mi-bell {
+    background-position: -788px -30px;
+}
+
+.mi-bars {
+    background-position: -312px -32px;
+}
+
+.mi-bars-black {
+    background-position: -843px -30px;
+}
+
+.mi-dashboard {
+    background-position: -30px -1628px;
+}
+
+.mi-cash {
+    background-position: -73px -1628px;
+}
+
+.mi-bank {
+    background-position: -117px -1628px;
+}
+
+.mi-bag {
+    background-position: -161px -1628px;
+}
+
+.mi-sale {
+    background-position: -204px -1628px;
+}
+
+.mi-invoice {
+    background-position: -249px -1628px;
+}
+
+.mi-stock {
+    background-position: -291px -1628px;
+}
+
+.mi-tools {
+    background-position: -336px -1628px;
+}
+
+.mi-car {
+    background-position: -378px -1630px;
+}
+
+.mi-tax {
+    background-position: -423px -1630px;
+}
+
+.mi-price {
+    background-position: -467px -1628px;
+}
+
+.mi-general {
+    background-position: -510px -1628px;
+}
+
+.mi-budge {
+    background-position: -378px -1659px;
+}
+
+.mi-report {
+    background-position: -547px -1628px;
+}
+
+.mi-finance {
+    background-position: -204px -1664px;
+}
+
+.mi-arrow-down-blue {
+    background-position: -897px -360px;
+}
+
+.mi-arrow-down-black {
+    background-position: -560px -356px;
+}
+
+.mi-refresh {
+    background-position: -423px -201px;
+}
+
+.mi-close {
+    background-position: -144px -144px;
+}
+
+.mi-help {
+    background-position: -89px -144px;
+}
+
+.mi-error {
+    background-position: -24px -954px;
+}
+
+.mi-success {
+    background-position: -479px -144px;
+}
+
+.mi-miniclose {
+    background-position: -1170px -356px;
+}

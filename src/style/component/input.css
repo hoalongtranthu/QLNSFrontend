@@ -1,0 +1,19 @@
+.m-input {
+    min-width: 250px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #dddddd;
+    height: 32px;
+    padding: 0 8px 0 10px;
+}
+
+.m-input:focus {
+    border: 1px solid #2ca01c;
+}
+
+.input-error {
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 32px;
+    min-width: 250px;
+}

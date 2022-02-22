@@ -1,0 +1,156 @@
+input {
+    appearance: none;
+}
+
+.employee-form {
+    position: fixed;
+    display: flex;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.employee-form .employee-form-content {
+    background-color: #fff;
+    position: relative;
+    min-width: 450px;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.employee-form .employee-form-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 60px;
+}
+
+.employee-form .form-header-tittle {
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 48px;
+}
+
+.employee-form .form-header-option {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 12px;
+}
+
+.employee-form .form-header-option .checkbox {
+    margin-left: 12px;
+}
+
+.employee-form .form-header-button {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.employee-form .form-help-container {
+    height: 24px;
+    width: 24px;
+    margin: 0 4px;
+}
+
+.employee-form .form-help {
+    background-position: -89px -144px;
+}
+
+.employee-form .form-close-container {
+    height: 24px;
+    width: 24px;
+    margin: 0 4px;
+}
+
+.employee-form .form-close {
+    background-position: -144px -144px;
+}
+
+.employee-form .employee-form-body {
+    width: 100%;
+}
+
+.employee-form .employee-form-bodytop {
+    width: 100%;
+    display: flex;
+}
+
+.employee-form .employee-form-bodymiddle {
+    width: 100%;
+    display: flex;
+}
+
+.employee-form .bodytop-block {
+    width: 100%;
+    padding-right: 24px;
+}
+
+.employee-form .bodytop-block-line {
+    display: flex;
+    width: 100%;
+    margin: 0 0 12px 0;
+}
+
+.employee-form .employee-pro {
+    width: 100%;
+    padding-right: 12px;
+}
+
+.employee-form input {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.employee-form input[type="text"],
+input[type="date"] {
+    width: 100%;
+}
+
+.employee-form input[type="radio"] {
+    margin: 8px 4px -2px 8px;
+    padding: 0;
+}
+
+.bodytop-block-line .m-40 {
+    width: 80%;
+}
+
+.employee-form .bodymiddle-block-line {
+    width: 100%;
+    padding: 24px 24px 12px 0;
+}
+
+.employee-form .employee-form-bodybottom {
+    width: 100%;
+    padding-right: 24px;
+    margin-bottom: 32px;
+}
+
+.employee-form .bodybottom-block-line {
+    display: flex;
+    width: 100%;
+}
+
+.employee-form-bodybottom .employee-pro {
+    width: 25%;
+}
+
+.employee-form .employee-form-footer {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #cccccc;
+    justify-content: space-between;
+}
+
+.employee-form .m-button {
+    margin-left: 12px;
+}

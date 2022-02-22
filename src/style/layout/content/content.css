@@ -1,0 +1,112 @@
+.maincontent {
+    width: 100%;
+    background-color: #eeeeee;
+    height: calc(100%-48px);
+    box-sizing: border-box;
+}
+
+.maincontent .content-header {
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    position: relative;
+}
+
+.content-header .content-tittle {
+    font-weight: 700;
+}
+
+.content-header button {
+    position: absolute;
+    right: 12px;
+}
+
+.maincontent .content-body {
+    width: 98%;
+    background-color: #fff;
+    margin: 0 12px 0 12px;
+}
+
+.maincontent .content-body-table {
+    border-radius: 4px;
+}
+
+.content-body .content-body-tool {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.content-body .main-tool {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content-body-tool button {
+    background-position: -422px -200px;
+}
+
+.content-body-tool .input-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-search .input-icon-search {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.content-body-tool .input-icon-search {
+    background-position: -992px -360px;
+    height: 16px;
+    width: 16px;
+}
+
+
+/*table*/
+
+.employee-options button {
+    color: rgb(39, 39, 248);
+    font-size: 13px;
+    border: none;
+    background: unset;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.employee-options button:hover {
+    font-weight: 700;
+}
+
+.employee-options .employee-option {
+    position: relative;
+    width: 24px;
+    height: 16px;
+    border: 1px solid rgb(39, 39, 248);
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.employee-options .employee-option .employee-option-icon {
+    background-position: -896px -360px;
+}
+
+.employee-option .employee-option-contain {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    display: none;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    width: 120px;
+    z-index: 1000;
+}

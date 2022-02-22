@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: noto-san;
+    font-size: 13px;
+}
+
+@import url('./component/button.css');
+@import url('./component/input.css');
+div#app {
+    display: flex;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: noto-san;
+    src: url('../assets/fonts/notosans-regular.2cb88a13.woff2');
+}
+
+@font-face {
+    font-family: noto-san-italic;
+    src: url('../assets/fonts/notosans-italic.1c1aaac9.woff2');
+}
+
+@font-face {
+    font-family: noto-san-bold;
+    src: url('../assets/fonts/notosans-bold.3ede5aff.woff2');
+}
+
+@font-face {
+    font-family: noto-san-semibold;
+    src: url('../assets/fonts/notosans-semibold.df3e6dc4.woff2');
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+::-webkit-scrollbar {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b8bcc3;
+    border-radius: 25px;
+}
